@@ -1,0 +1,49 @@
+﻿
+@{
+  ViewData["Title"] = "SignUp Page";
+}
+
+<div className='loginUser' style="box-sizing: content-box;
+    width: 30vw;
+    height: 95vh;
+    border: 1px solid black;
+    position: relative;
+    left: 35%;
+    margin-top: 10vh;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <div className='loginUser-title' style=" height: 10vh;
+    width: 30vw;
+    background-color: rgb(235, 238, 239);
+    font-size: 2em;
+    font-family: 'raleway';
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(145, 17, 47)">
+            Sign Up      
+        </div>
+        <div className='signUpUser-textfield'>
+            <div>
+            <input type="text" class='signUpUser_field' placeholder='Enter your Username'/>
+            </div>
+            <div>
+            <input type="text" class='signUpUser_field' placeholder='Enter your Email'/>
+            </div>
+            <div>
+            <input type="password" class='signUpUser_field' placeholder='Enter your Password'/>
+            </div>
+            <div>
+            <input type="password" class='signUpUser_field' placeholder='Confirm Your Password'/>
+            </div>
+            <div class='signUpUser_checkbox_div'>
+            <input type="checkbox" class='signUpUser_checkbox' />
+            <div class='signUpUser_checkbox_text'>Agree to the terms and conditions</div>
+            </div>
+            <div class='signUpUser_button_div'>
+                <button class='signUpUser_button'>Sign Up</button>
+            </div>
+        </div>
+    </div>
+

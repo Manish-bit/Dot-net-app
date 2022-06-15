@@ -1,0 +1,75 @@
+﻿
+.loginUser {
+    box-sizing: content-box;
+    width: 30vw;
+    height: 95vh;
+    border: 1px solid black;
+    position: relative;
+    left: 35%;
+    margin-top: 10vh;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginUser-title {
+    height: 10vh;
+    width: 30vw;
+    background-color: rgb(235, 238, 239);
+    font-size: 2em;
+    font-family: 'raleway';
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(145, 17, 47);
+}
+
+.signUpUser-title-icon {
+    position: relative;
+    left: 9.5vw;
+    bottom: 2vh;
+    color: rgb(145, 17, 47);
+}
+
+
+.signUpUser_field {
+    border: 1px solid black;
+    margin-left: 2vw;
+    margin-top: 6vh;
+    height: 8vh;
+    width: 26vw;
+    border-radius: 5px;
+}
+
+
+.signUpUser_checkbox_div {
+    display: flex;
+    justify-content: center;
+    margin-left: 2.5vw;
+    margin-top: 6vh;
+}
+
+.signUpUser_checkbox {
+    height: 4vh;
+    width: 4vw;
+}
+
+.signUpUser_button_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+.signUpUser_button {
+    background-color: rgb(154, 26, 55);
+    height: 7vh;
+    width: 7vw;
+    color: white;
+    border-radius: 8px;
+    font-family: 'raleway';
+    font-weight: bolder;
+}
+
+    .signUpUser_button:hover {
+        background-color: rgb(215, 80, 111);
+    }
