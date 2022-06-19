@@ -10,19 +10,20 @@
     margin-bottom: 10px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 .loginUser-title {
     height: 10vh;
     width: 30vw;
-    background-color: rgb(235, 238, 239);
     font-size: 2em;
     font-family: 'raleway';
     font-weight: bolder;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(145, 17, 47);
+    background-color: #efe5da;
+    color: black;
 }
 
 .signUpUser-title-icon {
