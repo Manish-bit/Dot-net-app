@@ -5,7 +5,7 @@
 
 <div className='loginUser' style="box-sizing: content-box;
     width: 30vw;
-    height: 77vh;
+    height: 95vh;
     border: 1px solid black;
     position: relative;
     left: 35%;
@@ -24,7 +24,7 @@
     cursor: pointer;
     color: black"
        >
-            Login      
+            Sign Up      
         </div>
         <div className='signUpUser-textfield'>
             <div>
@@ -36,10 +36,17 @@
             <div>
             <input type="password" class='signUpUser_field' placeholder='Enter your Password'/>
             </div>
-            <div class='signUpUser_button_div'>
-                <button class='signUpUser_button'>Login</button>
+            <div>
+            <input type="password" class='signUpUser_field' placeholder='Confirm Your Password'/>
             </div>
-            <div class='signUpUser_checkbox_text' style="text-align:center; margin-top:5px;">Don't have a account <a asp-controller="Login" asp-action="SignUp">Sign Up</a></div>
+            <div class='signUpUser_checkbox_div'>
+            <input type="checkbox" class='signUpUser_checkbox' />
+            <div class='signUpUser_checkbox_text'>Agree to the terms and conditions</div>
+            </div>
+            <div class='signUpUser_button_div'>
+                <button class='signUpUser_button'>Sign Up</button>
+            </div>
         </div>
     </div>
+
 

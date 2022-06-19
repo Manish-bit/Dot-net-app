@@ -16,23 +16,23 @@
         <div class="nav_top"><span>Book your free Consultant</span></div>
        <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Law Geek</a>
+    <a class="navbar-brand" asp-controller="Home" asp-action="Index">Law Geek</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item-info">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" asp-controller="Home" asp-action="index">Home</a>
         </li>
         <li class="nav-item-info">
-          <a class="nav-link active" href="#">Contact</a>
+          <a class="nav-link active" asp-controller="About" asp-action="Contact">Contact</a>
         </li>
         <li class="nav-item-info">
           <a class="nav-link active" href="#">About</a>
         </li>
         <li class="nav-item-info">
-          <a class="nav-link active" href="#">Us</a>
+          <a class="nav-link active" asp-controller="Login" asp-action="Login">Login</a>
         </li>
       </ul>
     </div>
@@ -42,6 +42,9 @@
   
             @RenderBody()
 
+            <footer class="main_footer">
+                <p>&copy; All Copyrights Included</p>
+            </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

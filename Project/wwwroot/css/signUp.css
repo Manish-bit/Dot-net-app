@@ -61,15 +61,16 @@
 }
 
 .signUpUser_button {
-    background-color: rgb(154, 26, 55);
+    background-color: #efe5da;
     height: 7vh;
     width: 7vw;
-    color: white;
+    color: black;
     border-radius: 8px;
     font-family: 'raleway';
     font-weight: bolder;
 }
 
     .signUpUser_button:hover {
-        background-color: rgb(215, 80, 111);
+        background-color: #db9176;
+        color: white;
     }
