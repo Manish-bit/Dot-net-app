@@ -23,20 +23,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manish/Desktop/DotNet/Project/Project/Views/About/Lawyer.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcTGF3eWVyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Manish/Desktop/DotNet/Project/Project/Views/About/LawyerSingle.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcTGF3eWVyU2luZ2xlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Manish/Desktop/DotNet/Project/Project/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Manish/Desktop/DotNet/Project/Project/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manish/Desktop/DotNet/Project/Project/Views/Lawyer/Lawyer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF3eWVyXExhd3llci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manish/Desktop/DotNet/Project/Project/Views/Lawyer/LawyerSingle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF3eWVyXExhd3llclNpbmdsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Manish/Desktop/DotNet/Project/Project/Views/Login/Login.cshtml]

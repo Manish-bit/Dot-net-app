@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EmKvXocXT3Lp2ZYlZUGj03SWKvesG+dzTNAEXxHOn8Q=",
+  "Hash": "vpwClrA0oUlecEQxhLA1tiNPxifgqcbU5znd4V0dym8=",
   "Source": "Project",
   "BasePath": "_content/Project",
   "Mode": "Default",
@@ -202,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\lawyer2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Manish\\Desktop\\DotNet\\Project\\Project\\wwwroot\\images\\lawyerabout.jpeg",
+      "SourceId": "Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Manish\\Desktop\\DotNet\\Project\\Project\\wwwroot\\",
+      "BasePath": "_content/Project",
+      "RelativePath": "images/lawyerabout.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\lawyerabout.jpeg"
     },
     {
       "Identity": "C:\\Users\\Manish\\Desktop\\DotNet\\Project\\Project\\wwwroot\\js\\site.js",

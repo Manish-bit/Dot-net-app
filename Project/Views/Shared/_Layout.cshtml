@@ -29,7 +29,7 @@
           <a class="nav-link active" asp-controller="About" asp-action="Contact">Contact</a>
         </li>
         <li class="nav-item-info">
-          <a class="nav-link active" href="#">About</a>
+          <a class="nav-link active" asp-controller="About" asp-action="About">About</a>
         </li>
         <li class="nav-item-info">
           <a class="nav-link active" asp-controller="Login" asp-action="Login">Login</a>
@@ -41,9 +41,8 @@
     </header>
   
             @RenderBody()
-
-            <footer class="main_footer">
-                <p>&copy; All Copyrights Included</p>
+            <footer class="text-center bg-dark text-white">
+                &copy; All copyrights included
             </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

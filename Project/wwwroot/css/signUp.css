@@ -6,7 +6,8 @@
     border: 1px solid black;
     position: relative;
     left: 35%;
-    margin-top: 10vh;
+    margin-top: 8vh;
+    margin-bottom: 10px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -66,7 +67,7 @@
     width: 7vw;
     color: black;
     border-radius: 8px;
-    font-family: 'raleway';
+    font-family: 'Cormorant Upright', serif;
     font-weight: bolder;
 }
 
