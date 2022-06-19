@@ -12,5 +12,9 @@ namespace Project.Controllers
         {
             return View();
         }
+        public IActionResult Book()
+        {
+            return View();
+        }
     }
 }
